@@ -1,3 +1,9 @@
+# revision 23704
+# category Package
+# catalog-ctan /macros/latex/contrib/ascelike
+# catalog-date 2011-08-24 08:41:41 +0200
+# catalog-license lppl
+# catalog-version 2.1
 Name:		texlive-ascelike
 Version:	2.1
 Release:	1
@@ -45,6 +51,7 @@ documentation/example of how to use the class.
 %doc %{_texmfdistdir}/doc/latex/ascelike/ascexmpl.bib
 %doc %{_texmfdistdir}/doc/latex/ascelike/ascexmpl.pdf
 %doc %{_texmfdistdir}/doc/latex/ascelike/ascexmpl.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -55,3 +62,5 @@ documentation/example of how to use the class.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
