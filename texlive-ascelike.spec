@@ -1,12 +1,12 @@
-# revision 24568
+# revision 25303
 # category Package
 # catalog-ctan /macros/latex/contrib/ascelike
-# catalog-date 2011-08-24 08:41:41 +0200
+# catalog-date 2012-02-05 17:55:30 +0100
 # catalog-license lppl
-# catalog-version 2.1
+# catalog-version 2.2
 Name:		texlive-ascelike
-Version:	2.1
-Release:	3
+Version:	2.2
+Release:	1
 Summary:	Bibliography style for the ASCE
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ascelike
