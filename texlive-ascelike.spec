@@ -52,3 +52,26 @@ documentation/example of how to use the class.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.2-1
++ Revision: 772016
+- Update to latest release.
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1-3
++ Revision: 749353
+- Rebuild to reduce used resources
+
+* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.1-2
++ Revision: 732495
+- texlive-ascelike
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.1-1
++ Revision: 717860
+- texlive-ascelike
+- texlive-ascelike
+- texlive-ascelike
+- texlive-ascelike
+- texlive-ascelike
+
