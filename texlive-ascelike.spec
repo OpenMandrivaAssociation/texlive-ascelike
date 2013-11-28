@@ -1,4 +1,4 @@
-# revision 25303
+# revision 29129
 # category Package
 # catalog-ctan /macros/latex/contrib/ascelike
 # catalog-date 2012-02-05 17:55:30 +0100
@@ -6,7 +6,7 @@
 # catalog-version 2.2
 Name:		texlive-ascelike
 Version:	2.2
-Release:	1
+Release:	2
 Summary:	Bibliography style for the ASCE
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ascelike
@@ -52,26 +52,3 @@ documentation/example of how to use the class.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.2-1
-+ Revision: 772016
-- Update to latest release.
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1-3
-+ Revision: 749353
-- Rebuild to reduce used resources
-
-* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.1-2
-+ Revision: 732495
-- texlive-ascelike
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 2.1-1
-+ Revision: 717860
-- texlive-ascelike
-- texlive-ascelike
-- texlive-ascelike
-- texlive-ascelike
-- texlive-ascelike
-
