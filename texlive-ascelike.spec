@@ -6,7 +6,7 @@
 # catalog-version 2.2
 Name:		texlive-ascelike
 Version:	2.2
-Release:	8
+Release:	9
 Summary:	Bibliography style for the ASCE
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ascelike
