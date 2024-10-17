@@ -3,7 +3,7 @@ Version:	29129
 Release:	2
 Summary:	Bibliography style for the ASCE
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/ascelike
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/ascelike
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ascelike.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ascelike.doc.r%{version}.tar.xz
